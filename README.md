@@ -4,9 +4,9 @@ You can test your Core ML image generation Models.
 
 ### Usage
 
-１、Just drag & drop your .mlmodel into the model directory.
+１,Just drag & drop your .mlmodel into the model directory.
 
-２、And run project on your device.
+２,And run project on your device.
 
 If the input of your model is random seeds, they automatically added to the model. 
 
