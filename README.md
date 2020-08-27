@@ -15,5 +15,5 @@ It also supports video input.
 
 ## Converted Core ML GAN Models.
 
-https://github.com/john-rocky/CoreML-Models.
+[CoreML-Models](https://github.com/john-rocky/CoreML-Models.)
 
