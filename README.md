@@ -13,7 +13,9 @@ If the input of your model is an image, You can choose the input image from Imag
 
 It also supports video input.
 
-## Converted Core ML GAN Models.
+## Converted Core ML GAN Models
 
 [CoreML-Models(GitHub)](https://github.com/john-rocky/CoreML-Models.)
 
+## Special Thanks
+This project inspired by [MLModelCamera:Shu223](https://github.com/shu223/MLModelCamera).
