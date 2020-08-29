@@ -20,4 +20,4 @@ It also supports video input.
 [CoreML-Models(GitHub)](https://github.com/john-rocky/CoreML-Models.)
 
 ## Special Thanks
-This project inspired by [MLModelCamera:Shu223](https://github.com/shu223/MLModelCamera).
+This project is inspired by [MLModelCamera:Shu223](https://github.com/shu223/MLModelCamera).
