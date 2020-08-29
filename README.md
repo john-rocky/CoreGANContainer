@@ -15,7 +15,7 @@ If the input of your model is an image, You can choose the input image from Imag
 
 It also supports video input.
 
-<img width="256" alt="menu" src="readmeImages/IMG_9276.PNG" border="50">　⇨　<img width="256" alt="result" src="readmeImages/IMG_9280.PNG" border="5">
+<img width="256" alt="menu" src="readmeImages/IMG_9276.PNG">　 ⇨ 　<img width="256" alt="result" src="readmeImages/IMG_9280.PNG">
 
 ## Converted Core ML GAN Models
 
