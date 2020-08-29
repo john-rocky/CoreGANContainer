@@ -2,7 +2,7 @@
 
 You can test your Core ML image generation Models.
 
-<img width="600" alt="illust1698.png" src="https://github.com/john-rocky/CoreGANContainer/tree/master/readmeImages/illust1698.png">
+![alt text](https://github.com/john-rocky/CoreGANContainer/tree/master/readmeImages/illust1698.png)
 
 ## Usage
 
