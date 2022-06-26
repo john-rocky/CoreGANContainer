@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7333EE752868A8B50058E9C9 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 7333EE742868A8B50058E9C9 /* models */; };
+		7333EE782868A8CA0058E9C9 /* animeganPaprika.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7333EE762868A8CA0058E9C9 /* animeganPaprika.mlmodel */; };
+		7333EE792868A8CA0058E9C9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 7333EE772868A8CA0058E9C9 /* .gitkeep */; };
 		73AEE1F624F645B0007166AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE1F524F645B0007166AC /* AppDelegate.swift */; };
 		73AEE1F824F645B0007166AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE1F724F645B0007166AC /* SceneDelegate.swift */; };
 		73AEE1FA24F645B0007166AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE1F924F645B0007166AC /* ViewController.swift */; };
 		73AEE1FD24F645B0007166AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AEE1FB24F645B0007166AC /* Main.storyboard */; };
 		73AEE1FF24F645BB007166AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AEE1FE24F645BB007166AC /* Assets.xcassets */; };
 		73AEE20224F645BB007166AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AEE20024F645BB007166AC /* LaunchScreen.storyboard */; };
-		73AEE20E24F82917007166AC /* models in Resources */ = {isa = PBXBuildFile; fileRef = 73AEE20D24F82917007166AC /* models */; };
 		73AEE21024F82D9C007166AC /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE20F24F82D9C007166AC /* Views.swift */; };
 		73AEE21424F83304007166AC /* SavingNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE21324F83304007166AC /* SavingNoticeViewController.swift */; };
 		73AEE21624F8357A007166AC /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEE21524F8357A007166AC /* AnimateView.swift */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7333EE742868A8B50058E9C9 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
+		7333EE762868A8CA0058E9C9 /* animeganPaprika.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animeganPaprika.mlmodel; sourceTree = "<group>"; };
+		7333EE772868A8CA0058E9C9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		73AEE1F224F645B0007166AC /* CoreGANContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGANContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AEE1F524F645B0007166AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73AEE1F724F645B0007166AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +36,6 @@
 		73AEE1FE24F645BB007166AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73AEE20124F645BB007166AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73AEE20324F645BB007166AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73AEE20D24F82917007166AC /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
 		73AEE20F24F82D9C007166AC /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		73AEE21324F83304007166AC /* SavingNoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingNoticeViewController.swift; sourceTree = "<group>"; };
 		73AEE21524F8357A007166AC /* AnimateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
@@ -70,7 +74,9 @@
 		73AEE1F424F645B0007166AC /* CoreGANContainer */ = {
 			isa = PBXGroup;
 			children = (
-				73AEE20D24F82917007166AC /* models */,
+				7333EE742868A8B50058E9C9 /* models */,
+				7333EE772868A8CA0058E9C9 /* .gitkeep */,
+				7333EE762868A8CA0058E9C9 /* animeganPaprika.mlmodel */,
 				73AEE1F524F645B0007166AC /* AppDelegate.swift */,
 				73AEE1F724F645B0007166AC /* SceneDelegate.swift */,
 				73AEE1F924F645B0007166AC /* ViewController.swift */,
@@ -148,7 +154,8 @@
 			files = (
 				73AEE20224F645BB007166AC /* LaunchScreen.storyboard in Resources */,
 				73AEE1FF24F645BB007166AC /* Assets.xcassets in Resources */,
-				73AEE20E24F82917007166AC /* models in Resources */,
+				7333EE792868A8CA0058E9C9 /* .gitkeep in Resources */,
+				7333EE752868A8B50058E9C9 /* models in Resources */,
 				73AEE1FD24F645B0007166AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +176,7 @@
 				73AEE1F624F645B0007166AC /* AppDelegate.swift in Sources */,
 				73AEE1F824F645B0007166AC /* SceneDelegate.swift in Sources */,
 				73AEE22424F89BF1007166AC /* VisionRequests.swift in Sources */,
+				7333EE782868A8CA0058E9C9 /* animeganPaprika.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
