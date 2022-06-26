@@ -63,6 +63,7 @@ extension ViewController:AVPlayerViewControllerDelegate {
                 self.progressLabel.text = NSLocalizedString("Complete !", comment: "")
                 self.progressLabel.isHidden = true
                 self.progressView.isHidden = true
+                self.croppedImageView.image = self.originalUIImage
                 self.edittedImageView.image = uiimage
                 self.fullSizeImageView1.image = uiimage
                 self.slideShow()
@@ -75,6 +76,10 @@ extension ViewController:AVPlayerViewControllerDelegate {
             if !isSquare {
                 uiimage.resize(size: originalUIImageSize!)
             }
+            DispatchQueue.main.async {
+                self.croppedImageView.image = self.originalUIImage
+                self.fullSizeImageView.image = self.originalUIImage
+                }
             DispatchQueue.main.async {
                 self.progress = 1.0
                 self.progressView.setProgress(self.progress, animated: true)
