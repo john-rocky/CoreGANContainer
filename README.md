@@ -1,5 +1,17 @@
 # CoreGANContainer
 
+**GANs (StyleGAN, Pix2Pix, AnimeGAN, CycleGAN) converted to Core ML — runnable on iPhone with sample iOS apps.**
+
+By [Daisuke Majima](https://john-rocky.github.io). Maintainer of [CoreML-Models](https://github.com/john-rocky/CoreML-Models) (1,749★) and 134 OSS repos covering most production on-device ML conversions for iOS.
+
+📱 Powers [AnimateU](https://apps.apple.com/us/developer/daisuke-majima/id1350309854) and other apps on the App Store under my developer account.
+
+💼 **Open to Staff / Senior iOS / Mobile ML roles** — [john-rocky.github.io](https://john-rocky.github.io)
+
+---
+
+# CoreGANContainer
+
 You can test your Core ML image generation Models.
 
 ![alt text](readmeImages/illust1698.png)
